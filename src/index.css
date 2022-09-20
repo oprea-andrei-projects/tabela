@@ -162,6 +162,10 @@
   align-items: center;
 }
 
+.minus:hover{
+
+  background-color: crimson;
+}
 .noPoints{
 
   display: flex;
@@ -181,6 +185,11 @@
   justify-content: center;
   align-items: center;
 
+}
+
+.plus:hover{
+
+  background-color: aquamarine;
 }
 .adding{
 

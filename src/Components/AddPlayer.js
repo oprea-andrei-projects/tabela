@@ -33,7 +33,7 @@ export default function AddPlayer({p,add}){
 
             <footer className="adding">
 
-                <input type="text" className="playerName" ref={inputEl}/>
+                <input type="text" className="playerName" ref={inputEl} placeholder="Add A Player..."/>
                 <buttor className="addBtn" id="add" onClick={handleAddPlayer}>Add Player</buttor>
 
             </footer>
